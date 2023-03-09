@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*{
+	box-sizing: border-box;
+	
+}
+
+	
+body {
+	
+	background-color: ##e3edf7;
+	height: 100vh;
+	font-family: 'Lato'; sans-serif;
+	background-image: url("sunv4.jpg");
+	color: #7e7e7e;
+	padding-left: 70px;
+	
+	
+	
+
+}
+
+
+
+h1 {
+	
+	text-align: center;
+}
+img {
+position: grid;
+align-items: center;
+height: 200px;
+width: 200px;
+border-radius: 10%;
+margin: 10px;
+transition: transform .5s;
+text-align: center;
+
+}
+
+img:hover{
+-ms-transform: scale(1.1); 
+-webkit-transform: scale(1.1); 
+transform: scale(1.1); 
+}
+
+@media(max-width: 435px) {
+	body {
+			padding-left: 70px;
+
+	}
+	
+	h1 {
+		text-align: justify;
+	}
+}
+
+@media(max-width: 600px) {
+	body {
+			padding-left: 70px;
+	}
+	h1 {
+		text-align: justify;
+	}
+}
+
+
